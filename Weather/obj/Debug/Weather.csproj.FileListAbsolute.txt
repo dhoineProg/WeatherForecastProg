@@ -1,0 +1,15 @@
+C:\Users\HUAWEI\source\repos\Weather\Weather\bin\Debug\Weather.exe.config
+C:\Users\HUAWEI\source\repos\Weather\Weather\bin\Debug\Weather.exe
+C:\Users\HUAWEI\source\repos\Weather\Weather\bin\Debug\Weather.pdb
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.Properties.Resources.resources
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.exe
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.Classes.Alert.resources
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.Weather.resources
+C:\Users\HUAWEI\source\repos\Weather\Weather\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HUAWEI\source\repos\Weather\Weather\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HUAWEI\source\repos\Weather\Weather\obj\Debug\Weather.csproj.CopyComplete
