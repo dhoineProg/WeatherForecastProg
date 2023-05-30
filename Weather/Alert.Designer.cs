@@ -42,6 +42,7 @@
             this.label3.Size = new System.Drawing.Size(274, 92);
             this.label3.TabIndex = 8;
             this.label3.Text = "Ошибка! \r\nПроверьте правильность написания города\r\n.";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Alert
             // 
@@ -51,7 +52,8 @@
             this.ClientSize = new System.Drawing.Size(281, 121);
             this.Controls.Add(this.label3);
             this.Name = "Alert";
-            this.Text = "Form2";
+            this.Text = "Ошибка!";
+            this.Load += new System.EventHandler(this.Alert_Load);
             this.ResumeLayout(false);
 
         }

@@ -132,7 +132,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(273, 154);
+            this.label4.Location = new System.Drawing.Point(273, 159);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(130, 20);
             this.label4.TabIndex = 8;
@@ -181,7 +181,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Weather";
-            this.Text = "Form1";
+            this.Text = "Прогноз погоды";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

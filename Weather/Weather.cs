@@ -35,17 +35,26 @@ namespace Weather
             else
             {
                 HttpClient client = new HttpClient(); // Создание экземпляра класса 
-                string link = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={weatherAPI}&units=metric"; //Обращение к данным OpenWeather API
-                string response = await client.GetStringAsync(link); // Получение данных от OpenWeather API
+                try
+                {
+                    string link = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={weatherAPI}&units=metric"; //Обращение к данным OpenWeather API
+                    string response = await client.GetStringAsync(link); // Получение данных от OpenWeather API
 
-                var json = JObject.Parse(response); // Перебор json объекта
-                string temperature = json["main"]["temp"].ToString(); // Вывод температуры из данных OpenWeather API 
-                string windSpeed = json["wind"]["speed"].ToString(); // Вывод скорости ветра из данных OpenWeather API 
-                string description = json["weather"][0]["description"].ToString(); // Вывод описания погоды из данных OpenWeather API 
 
-                textBox2.Text = temperature; // Запись данных о температуре в textBox2
-                textBox3.Text = windSpeed; // Запись данных о скорости ветра в textBox3
-                textBox4.Text = description; // Запись описания погоды в textBox4
+                    var json = JObject.Parse(response); // Перебор json объекта
+                    string temperature = json["main"]["temp"].ToString(); // Вывод температуры из данных OpenWeather API 
+                    string windSpeed = json["wind"]["speed"].ToString(); // Вывод скорости ветра из данных OpenWeather API 
+                    string description = json["weather"][0]["description"].ToString(); // Вывод описания погоды из данных OpenWeather API 
+
+                    textBox2.Text = temperature; // Запись данных о температуре в textBox2
+                    textBox3.Text = windSpeed; // Запись данных о скорости ветра в textBox3
+                    textBox4.Text = description; // Запись описания погоды в textBox4
+                }
+                catch (HttpRequestException ex)
+                {
+                    Alert form2 = new Alert();
+                    form2.Show();
+                }
             }
         }
 
